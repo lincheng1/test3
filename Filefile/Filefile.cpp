@@ -11,7 +11,7 @@
 #include <QPixmap>
 
 #include <QIcon>
-#include <QString>
+#include <QStrin g>
 Filefile::Filefile(QWidget *parent)
 	: QWidget(parent)
 {
