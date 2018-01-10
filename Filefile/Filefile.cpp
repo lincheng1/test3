@@ -11,11 +11,12 @@
 #include <QPixmap>
 
 #include <QIcon>
-
+#include <QString>
 Filefile::Filefile(QWidget *parent)
 	: QWidget(parent)
 {
 	ui.setupUi(this);
+
 
 	//╤анд╪Ч
 	connect(ui.readButton, &QPushButton::clicked, this, &Filefile::readFile);
